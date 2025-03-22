@@ -1,0 +1,20 @@
+﻿@model List<AcunMedya.Cafe.Entities.Feature>
+
+	@foreach(var x in Model)
+	{
+
+	
+<section class="banner-area" id="home">
+	<div class="container">
+		<div class="row fullscreen d-flex align-items-center justify-content-start">
+			<div class="banner-content col-lg-7">
+				<h6 class="text-white text-uppercase">@ViewBag.SubTitle</h6>
+				<h1>
+					@ViewBag.Title  
+				</h1>
+				<a href="#" class="primary-btn text-uppercase">Sende Al</a>
+			</div>
+		</div>
+	</div>
+</section>
+	}
