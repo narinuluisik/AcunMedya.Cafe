@@ -1,4 +1,6 @@
-﻿namespace AcunMedya.Cafe.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace AcunMedya.Cafe.Entities
 {
     public class Product
     {
@@ -10,6 +12,8 @@
         public int CategoryId { get; set; }
         public Category Category { get; set; }
 
+        [NotMapped]   //veri tabanına kaydetmez
+        public IFormFile ImageFile { get; set; }  //kullanıcın yüklediği dosyayı temsil eder
 
     }
 }

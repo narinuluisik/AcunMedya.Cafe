@@ -1,4 +1,5 @@
 ﻿using AcunMedya.Cafe.Context;
+using AcunMedya.Cafe.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AcunMedya.Cafe.Controllers
@@ -20,5 +21,13 @@ namespace AcunMedya.Cafe.Controllers
             ViewBag.Title = _context.Features.Select(x => x.Title).FirstOrDefault();
             return View(value);
         }
+        [HttpPost]
+        public IActionResult Index(Subscribe subscribe)
+        {
+            _context.Subscribes.Add(subscribe);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
+    
