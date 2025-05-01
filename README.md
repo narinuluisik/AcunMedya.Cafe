@@ -5,7 +5,7 @@ Bu proje, modern bir **kafe web sitesi** için geliştirilen bir **ASP.NET Core 
 
 ## 🔗 Admin Panelinde Bilgilendirici Link
 
-Admin paneli ana sayfasında yer alan **"ASP.NET Core"** yazısına tıklanarak, projede kullanılan teknolojiyi tanıtan **"ASP.NET Core Nedir?"** başlıklı Medium yazısına ulaşılabilir:
+Admin paneli ana sayfasında yer alan **"ASP.NET Core"** yazısına tıklanarak **"ASP.NET Core Nedir?"** başlıklı Medium yazıma ulaşabilirsiniz:
 
 👉 [ASP.NET Core Nedir?](https://medium.com/@narinuluisik7/modern-web-geli%C5%9Ftirmenin-kalbinde-asp-net-core-2647f4ee0507)
 
